@@ -6,7 +6,7 @@ const RoutesManager = () => {
     <Routes>
       <Route path="/" element={<HomeController />} />
       <Route path="detail">
-        <Route path=":infoIDs" element={<HomeController />} />
+        <Route path=":infoID" element={<HomeController />} />
       </Route>
     </Routes>
   );
