@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import api from "../Common/api";
 
 const getMovies = (search: string) => api.get("/movies?searchTerm=" + search);
