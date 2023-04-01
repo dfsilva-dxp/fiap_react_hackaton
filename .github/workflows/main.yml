@@ -1,11 +1,13 @@
+name: 🚀 Build and Test
+run-name: Build and test workflow
 on:
   push:
-    branches:
-      - main
   pull_request:
+    types:
+      - opened
+      - edited
     branches:
       - main
-name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
